@@ -20,13 +20,13 @@
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 1px;
     border-radius: 1px;
-    background-color:#d7190f;
+    background-color:#5f94ff;
     -moz-border-radius: 1px;
     -ms-border-radius: 1px;
     -o-border-radius: 1px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background-color:#d7190f;
+    background-color:#204797;
 }
 ::-webkit-resizer{
     background-image:url('');
@@ -190,9 +190,70 @@ body{
                     }
                 }
             }
-            .header__sub{
-    
-            }
         } 
+    }
+    .main{
+        padding-top: 20px;
+        margin: 0 auto;
+        max-width: 1300px;
+        .main-wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .slider-wrap{
+                display: flex;
+                margin-bottom: 40px;
+                .slider-tab{
+                    margin: 0 15px;
+                    width: 40px;
+                    height: 10px;
+                    border-radius: 5px;
+                    background-color: #ff4b64;
+
+                    transition: .3s;
+                    transition-delay: .1s;
+                }
+                .slider-tab:hover{
+                    width: 150px;
+                    border-radius: 5px;
+                    background-color: #5f94ff;
+                }
+            }
+            .main-title{
+                position: relative;
+                .main-title-sup{
+                    color: #000000;
+                    font-size: 50px;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                .main-title-sub{
+                    color: #918f89;
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+                .img_layer{
+                    position: absolute;
+                    width: 400px;
+
+                    left: 700px;
+                    top: -180px;
+                }
+            }
+            .logo-studio-wrap{
+                display: flex;
+                margin-top: 80px;
+                a{
+                    margin-right: 100px;
+                }
+                a:last-child{
+                    margin-right: 0px;
+                }
+            }
+            .title-list-wrap{
+
+            }
+        }
     }
 }

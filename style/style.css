@@ -17,14 +17,14 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1px;
-  background-color: #d7190f;
+  background-color: #5f94ff;
   -moz-border-radius: 1px;
   -ms-border-radius: 1px;
   -o-border-radius: 1px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #d7190f;
+  background-color: #204797;
 }
 
 ::-webkit-resizer {
@@ -209,5 +209,89 @@ body header .header-wrap .header__sup .header__sup__column .header__sup__column_
   font-weight: 500;
   line-height: 54px;
   margin-top: 10px;
+}
+
+body .main {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+body .main .main-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .main-wrap .slider-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+body .main .main-wrap .slider-wrap .slider-tab {
+  margin: 0 15px;
+  width: 40px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ff4b64;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+}
+
+body .main .main-wrap .slider-wrap .slider-tab:hover {
+  width: 150px;
+  border-radius: 5px;
+  background-color: #5f94ff;
+}
+
+body .main .main-wrap .main-title {
+  position: relative;
+}
+
+body .main .main-wrap .main-title .main-title-sup {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+body .main .main-wrap .main-title .main-title-sub {
+  color: #918f89;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+body .main .main-wrap .main-title .img_layer {
+  position: absolute;
+  width: 400px;
+  left: 700px;
+  top: -180px;
+}
+
+body .main .main-wrap .logo-studio-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+}
+
+body .main .main-wrap .logo-studio-wrap a {
+  margin-right: 100px;
+}
+
+body .main .main-wrap .logo-studio-wrap a:last-child {
+  margin-right: 0px;
 }
 /*# sourceMappingURL=style.css.map */
