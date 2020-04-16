@@ -128,16 +128,6 @@ body header .header-wrap .header__sup {
 
 body header .header-wrap .header__sup .header__sup__column .img-wrap .device-img {
   width: 850px;
-  opacity: .9;
-  -webkit-transition: .3s;
-  transition: .3s;
-  -webkit-transition-delay: .1s;
-          transition-delay: .1s;
-}
-
-body header .header-wrap .header__sup .header__sup__column .img-wrap .device-img:hover {
-  width: 850px;
-  opacity: 1;
 }
 
 body header .header-wrap .header__sup .header__sup__column .header__sup__column__title {
