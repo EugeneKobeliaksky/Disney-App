@@ -521,6 +521,14 @@ body{
         height: 100%;
         margin-top: 100px;
         padding: 125px 50px 25px 50px; 
+
+        position: relative;
+        .img__layer__three{
+            position: absolute;
+            width: 300px;
+            top: -200px;
+            left: 180px;
+        }
         .container__content{
             display: flex;
             flex-direction: column;
